@@ -23,6 +23,5 @@ Semantic Boundaries Dataset
   train.txt
   val.txt
 ```
-The annotations in PASCAL VOC 2012 are colorful images of png type while those in Semantic Boundaries Dataset are of mat type. So we transform all the annotations into grayscale images before combining these two datasets.
- 
+The annotations in PASCAL VOC 2012 are colorful images of .png type while those in Semantic Boundaries Dataset are of .mat type. So we transform all the annotations into grayscale images before combining these two datasets. We first create a folder in benchmark_RELEASE and name it as tools, then put three python files into this folder which are mat2png.py, convert_labels.py and utils.py respectively.
 
