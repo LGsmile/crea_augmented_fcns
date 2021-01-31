@@ -14,7 +14,15 @@ PASCAL VOC 2012
     + SegmentationClass
     + SegmentationObject 
 ```
-
+Semantic Boundaries Dataset
+```
++ benchmark_RELEASE
+  + cls
+  + img
+  + inst  
+  train.txt
+  val.txt
+```
 The annotations in PASCAL VOC 2012 are colorful images of png type while those in Semantic Boundaries Dataset are of mat type. So we transform all the annotations into grayscale images before combining these two datasets.
  
 
