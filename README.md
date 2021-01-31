@@ -3,6 +3,7 @@ Semantic segmentation via efficient attention augmented convolutional networks.
 
 # Prepare Dataset
 The dataset this project uses is Augmented PASCAL VOC, which is made of PASCAL VOC 2012 and Semantic Boundaries Dataset. The directory structures of these two datasets are as below:
+
 PASCAL VOC 2012
 ```
 + VOCdevkit
