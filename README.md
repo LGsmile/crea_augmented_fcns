@@ -40,7 +40,7 @@ Use mat2png.py to transform the annotation datas in Semantic Boundaries Dataset.
 ```
 python mat2png.py cls cls_aug
 ```
-Use convert_labels.py to transform the annotation datas in PASCAL VOC 2012. Copy convert_labels.py and utils.py to the directory /VOCdevkit/VOC2012, and run convert_labels.py.  The transformed annotations is in the directory /cls_aug.
+Use convert_labels.py to transform the annotation datas in PASCAL VOC 2012. Copy convert_labels.py and utils.py to the directory /VOCdevkit/VOC2012, and run convert_labels.py.  The transformed annotations is in the directory /SegmentationClass_1D.
 ```
 python convert_labels.py SegmentationClass ImageSets/Segmentation/trainval.txt SegmentationClass_1D
 ```
