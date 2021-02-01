@@ -1,8 +1,21 @@
 # crea_augmented_fcns
-Semantic segmentation via efficient attention augmented convolutional networks.
+This project proposes the efficient attention augmented convolution module which comprises convolution, efficient attention and column-row attention operations. We replace some convolutional layers with this augmented module in fully convolutional networks to obtain the augmented convolutional networks, and test them on semantic segmentation task.
 
 # Prepare Dataset
-The dataset this project uses is Augmented PASCAL VOC, which is made of PASCAL VOC 2012 and Semantic Boundaries Dataset. The directory structures of these two datasets are as below:
+The dataset this project uses is Augmented PASCAL VOC, which is made of PASCAL VOC 2012 and Semantic Boundaries Dataset. 
+
+## Make the dataset by yourself
+If you want to make the augmented dataset by yourself, you can make it following the guidance below.
+
+You can download the PASCAL VOC 2012 from this url:
+```
+http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar
+```
+You can download the Semantic Boundaries Dataset from this url:
+```
+http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/semantic_contours/benchmark.tgz
+```
+The directory structures of these two datasets are as below:
 
 PASCAL VOC 2012
 ```
