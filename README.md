@@ -55,7 +55,7 @@ Finally, we combine the images and annotations in both datasets to make Augmente
     + SegmentationClass    
 ```
 ## Download the dataset directly
-If you want to download the dataset directly, you can get it [here](https://pan.baidu.com/s/1Ux2FOkUlwrWnMOEqq3Thow), and the code you should input is etli.
+If you want to download the dataset directly, you can get it [here](https://pan.baidu.com/s/1Ux2FOkUlwrWnMOEqq3Thow), and the code you should input is 'etli'.
 
 # Training
 Entry the directory /AAFCNS/trainaugfcn, there are several python files to train different models. The strings after 'train' in the names of these python files are the names of models(e.g. 'train_crea_fcn32sc3' represents the model that replaces the last convolution layer wiht efficient attention augmented convoluton module in the third, fourth and fifth convolutional blocks of the baseline fcn32s.)
