@@ -54,3 +54,5 @@ Finally, we combine the images and annotations in both datasets to make Augmente
     + JPEGImages
     + SegmentationClass    
 ```
+## Download the dataset directly
+If you want to download the dataset directly, you can get it [here](https://pan.baidu.com/s/1Ux2FOkUlwrWnMOEqq3Thow), and the code you should input is etli.
