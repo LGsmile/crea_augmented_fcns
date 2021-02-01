@@ -48,7 +48,7 @@ Semantic Boundaries Dataset
 ```
 The annotations in PASCAL VOC 2012 are colorful images of .png type while those in Semantic Boundaries Dataset are of .mat type. So we transform all the annotations into grayscale images before combining these two datasets. We first create a folder in benchmark_RELEASE and name it as tools, then put three python files into this folder which are mat2png.py, convert_labels.py and utils.py respectively.
 
-Use mat2png.py to transform the annotation datas in Semantic Boundaries Dataset. Entry the directory /tools and run mat2png.py. The transformed annotations is in the directory /cls_aug.
+Use mat2png.py to transform the annotation datas in Semantic Boundaries Dataset. Enter the directory /tools and run mat2png.py. The transformed annotations is in the directory /cls_aug.
 ```
 python mat2png.py cls cls_aug
 ```
@@ -70,7 +70,7 @@ Finally, we combine the images and annotations in both datasets to make Augmente
 If you want to download the dataset directly, you can get it [here](https://pan.baidu.com/s/1Ux2FOkUlwrWnMOEqq3Thow), and the code you should input is 'etli'.
 
 # Training
-Entry the directory /AAFCNS/trainaugfcn, there are several python files to train different models. The strings after 'train' in the names of these python files are the names of models(e.g. 'train_crea_fcn32sc3' represents the model that replaces the last convolution layer wiht efficient attention augmented convoluton module in the third, fourth and fifth convolutional blocks of the baseline fcn32s.)
+Enter the directory /AAFCNS/trainaugfcn, there are several python files to train different models. The strings after 'train' in the names of these python files are the names of models(e.g. 'train_crea_fcn32sc3' represents the model that replaces the last convolution layer wiht efficient attention augmented convoluton module in the third, fourth and fifth convolutional blocks of the baseline fcn32s.)
 
 You should first change the root to your own path of the dataset in this code of the python files:
 ```python
