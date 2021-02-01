@@ -7,8 +7,7 @@ The dataset this project uses is Augmented PASCAL VOC, which is made of PASCAL V
 ## Make the dataset by yourself
 If you want to make the augmented dataset by yourself, you can make it following the guidance below.
 
-You can download the PASCAL VOC 2012 from this url:
-
+You can download the PASCAL VOC 2012 from this url:    
 http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar
 
 You can download the Semantic Boundaries Dataset from this url:
