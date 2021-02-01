@@ -2,16 +2,16 @@
 This project proposes the efficient attention augmented convolution module which comprises convolution, efficient attention and column-row attention operations. We replace some convolutional layers with this augmented module in fully convolutional networks to obtain the augmented convolutional networks, and test them on semantic segmentation task.
 
 # Requirements
--tqdm==4.47.0
--torchvision==0.8.2
--numpy==1.18.5
--torch==1.7.1
--scikit_image==0.16.2
--scipy==1.4.1
--pytz==2020.1
--Pillow==8.1.0
--PyYAML==5.4.1
--skimage==0.0
+- tqdm==4.47.0
+- torchvision==0.8.2
+- numpy==1.18.5
+- torch==1.7.1
+- scikit_image==0.16.2
+- scipy==1.4.1
+- pytz==2020.1
+- Pillow==8.1.0
+- PyYAML==5.4.1
+- skimage==0.0
 
 # Prepare Dataset
 The dataset this project uses is Augmented PASCAL VOC, which is made of PASCAL VOC 2012 and Semantic Boundaries Dataset. 
