@@ -14,15 +14,15 @@ This project proposes the efficient attention augmented convolution module which
 - skimage==0.0
 
 # Prepare Dataset
-The dataset this project uses is Augmented PASCAL VOC, which is made of PASCAL VOC 2012 and Semantic Boundaries Dataset. 
+The dataset in this project is Augmented PASCAL VOC, which is made of PASCAL VOC 2012 and Semantic Boundaries Dataset. 
 
 ## Make the dataset by yourself
 If you want to make the augmented dataset by yourself, you can make it following the guidance below.
 
-You can download the PASCAL VOC 2012 from this url:    
+Download the PASCAL VOC 2012 from this url:    
 http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar
 
-You can download the Semantic Boundaries Dataset from this url:
+Download the Semantic Boundaries Dataset from this url:
 http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/semantic_contours/benchmark.tgz
 
 The directory structures of these two datasets are as below:
@@ -67,7 +67,7 @@ Finally, we combine the images and annotations in both datasets to make Augmente
     + SegmentationClass    
 ```
 ## Download the dataset directly
-If you want to download the dataset directly, you can get it [here](https://pan.baidu.com/s/1Ux2FOkUlwrWnMOEqq3Thow), and the code you should input is 'etli'.
+If you want to download the dataset directly, you can get it [here](https://pan.baidu.com/s/1Ux2FOkUlwrWnMOEqq3Thow), and the code is 'etli'.
 
 # Training
 Enter the directory /AAFCNS/trainaugfcn, there are several python files to train different models. The strings after 'train' in the names of these python files are the names of models(e.g. 'train_crea_fcn32sc3' represents the model that replaces the last convolution layer wiht efficient attention augmented convoluton module in the third, fourth and fifth convolutional blocks of the baseline fcn32s.)
